@@ -1,10 +1,11 @@
 # ICN
 
 IMPORTANT: Please ensure that whenever running any code that there are no processes running on a certain port. For our code an easy way to fix this is:
+
 pkill -f Node.py
+
 This will stop all background node processes. The shell script will create some of these processes in the terminal, so please be aware.
 This functionality is intended as every node is its own independent process which better represents a peer to peer network.
-
 
 
 Please run the shell script included: runme.sh
